@@ -82,8 +82,7 @@ export const NavBar = () => {
                 <a>
                   <img src={navIcon1} alt="" onClick={onClickLinkedin} />
                 </a>
-                {/* <a href="#"><img src={navIcon2} alt="" onClick={onClickInstagram} /></a> */}
-                <a href="#">
+                <a>
                   <img src={navIcon3} alt="" onClick={onClickInstagram} />
                 </a>
               </div>
