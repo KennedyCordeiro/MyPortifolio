@@ -398,7 +398,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project .nav.nav-pills .nav-item {
   width: 50%;
-  border-radius: 15px 50px 30px 0px;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -416,9 +415,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .kentech::before {
   background: linear-gradient(90.21deg, #b40303 -5.91%, #252525 111.58%);
- 
+  border-radius: 15px 0px 0px 30px;
 }
 .fitbank::before{
+  border-radius: 0px 50px 30px 0px;
+
   background: linear-gradient(90.21deg, #0321ca -5.91%, #252525 111.58%);
 }
 
@@ -440,11 +441,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
+  border-radius: 15px 0px 0px 30px;
 }
 .nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0px 50px 30px 0px;
 }
 .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -503,9 +505,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  background: linear-gradient(90.21deg, #414141 -5.91%, #4a2fbd 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
