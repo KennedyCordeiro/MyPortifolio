@@ -1,22 +1,18 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col, Tab, Nav, Carousel } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import img1 from "../assets/img/img1.jpg"
+import img2 from "../assets/img/img2.jpg"
+import img3 from "../assets/img/img3.jpg"
+import img4 from "../assets/img/img4.jpg"
+import img5 from "../assets/img/img5.jpg"
 
 export const Projects = () => {
-  const projects = [
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
- 
-  ];
-
+  const imgs = [img1 , img2, img3, img4, img5]
   return (
-    <section className="project" id="projects">
+    <section className="project reveal" id="projects">
       <Container>
         <Row>
           <Col size={12}>
@@ -41,7 +37,7 @@ export const Projects = () => {
                       <Nav.Item>
                         <Nav.Link eventKey="second" className="fitbank">Front-end at Fitbank</Nav.Link>
                       </Nav.Item>
-                  
+
                     </Nav>
                     <Tab.Content
                       id="slideInUp"
@@ -49,23 +45,28 @@ export const Projects = () => {
                         isVisible ? "animate__animated animate__slideInUp" : ""
                       }
                     >
-                      <Tab.Pane eventKey="first">
-                        <Row>
-                          {projects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
-                          })}
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="section"></Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
-                      </Tab.Pane>
+                      <Carousel>
+                        <div>
+                          {imgs.map((imgs => (
+                            <div className="item-carousel">
+                              <img src = {Imgs} alt = {description}/>
+                            </div>
+                          )))
+                          }
+                       </div>
+                        <div>
+                          <img src={img1} />
+                          <p className="legend">Placas de vídeo</p>
+                        </div>
+                        <div>
+                          <img src={img2} />
+                          <p className="legend">Legend 2</p>
+                        </div>
+                        <div>
+                          <img src="assets/3.jpeg" />
+                          <p className="legend">Legend 3</p>
+                        </div>
+                      </Carousel>
                     </Tab.Content>
                   </Tab.Container>
                 </div>
