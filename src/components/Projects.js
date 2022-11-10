@@ -3,20 +3,62 @@ import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import img1 from "../assets/img/img1.jpg"
-import img2 from "../assets/img/img2.jpg"
-import img3 from "../assets/img/img3.jpg"
-import img4 from "../assets/img/img4.jpg"
-import img5 from "../assets/img/img5.jpg"
-
+import {  img2, img3, img4, img5 } from "../assets/img"
+import logo1 from "../assets/img/logo1.svg"
 export const Projects = () => {
-  const imgs = [img1 , img2, img3, img4, img5]
+
   return (
     <section className="project reveal" id="projects">
       <Container>
         <Row>
           <Col size={12}>
-            <TrackVisibility>
+            <div
+              className={
+                "animate__animated animate__fadeIn" 
+              }
+            />
+              <h2>Projects</h2>
+              <p>Um pouco sobre meus projetos atuais </p>
+              <Carousel fade>
+                <Carousel.Item>
+                  <img
+                    className="img-carousel img-fluid"
+                    src={logo1}
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="img-carousel img-fluid"
+                    src={img3}
+                    alt="Second slide"
+                  />
+
+                  <Carousel.Caption>
+                    <h3>Second slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="img-carousel img-fluid"
+                    src={img2}
+                    alt="Third slide"
+                  />
+
+                  <Carousel.Caption>
+                    <h3>Third slide label</h3>
+                    <p>
+                      Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    </p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              </Carousel>
+              {/* <TrackVisibility>
               {({ isVisible }) => (
                 <div
                   className={
@@ -38,40 +80,11 @@ export const Projects = () => {
                         <Nav.Link eventKey="second" className="fitbank">Front-end at Fitbank</Nav.Link>
                       </Nav.Item>
 
-                    </Nav>
-                    <Tab.Content
-                      id="slideInUp"
-                      className={
-                        isVisible ? "animate__animated animate__slideInUp" : ""
-                      }
-                    >
-                      <Carousel>
-                        <div>
-                          {imgs.map((imgs => (
-                            <div className="item-carousel">
-                              <img src = {Imgs} alt = {description}/>
-                            </div>
-                          )))
-                          }
-                       </div>
-                        <div>
-                          <img src={img1} />
-                          <p className="legend">Placas de vídeo</p>
-                        </div>
-                        <div>
-                          <img src={img2} />
-                          <p className="legend">Legend 2</p>
-                        </div>
-                        <div>
-                          <img src="assets/3.jpeg" />
-                          <p className="legend">Legend 3</p>
-                        </div>
-                      </Carousel>
-                    </Tab.Content>
-                  </Tab.Container>
+                    </Nav> 
+                    </Tab.Container>
                 </div>
               )}
-            </TrackVisibility>
+            </TrackVisibility> */}
           </Col>
         </Row>
       </Container>
