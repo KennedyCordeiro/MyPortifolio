@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png">
+<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/923c752d-1c1b-4b21-a611-8b8444e1b62b/2ead76aa-79cb-49b6-bd1b-fb7345611872.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221221T181922Z&X-Amz-Expires=86400&X-Amz-Signature=ded1aa7b3209075b15a15ca33e216cf454676c416def08aa19b9bc8807cb117f&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%222ead76aa-79cb-49b6-bd1b-fb7345611872.png%22&x-id=GetObject">
 
 Built using:
 
