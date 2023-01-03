@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="1266" alt="Screenshot of project" src=https://mica-buckaroo-1a2.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F923c752d-1c1b-4b21-a611-8b8444e1b62b%2F2ead76aa-79cb-49b6-bd1b-fb7345611872.png?id=a030590f-c99b-489d-a110-aaf02d47dfee&table=block&spaceId=e3debdd3-be68-43e5-a9df-e155efdd275a&width=2000&userId=&cache=v2">
+<img width="1266" alt="Screenshot of project" src="https://mica-buckaroo-1a2.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F923c752d-1c1b-4b21-a611-8b8444e1b62b%2F2ead76aa-79cb-49b6-bd1b-fb7345611872.png?id=a030590f-c99b-489d-a110-aaf02d47dfee&table=block&spaceId=e3debdd3-be68-43e5-a9df-e155efdd275a&width=2000&userId=&cache=v2">
 
 Built using:
 
